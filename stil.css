@@ -1,13 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 p {
-	color: green;
+	color: darkcyan;
 	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
-	font-size: 16px;
-	line-height: 18px;
-	width: 600px;
-	background-color: antiquewhite;
-	padding: 20px;
+	font-size: 25px;
 }
 .paragraf_2 {color: darkmagenta; background-color: rgba(255, 255, 255, 0,5)}
 .novi_blok {
@@ -16,18 +12,25 @@ p {
 	margin:20px;
 	width:50%;
 }
-h1, h2 {
+h1 {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-	color: white;
+	color: darkcyan;
+}
+h3 {
+	color: darkslateblue
+}
+h2 {
+	color: darkorchid
 }
 
 span {color:rgb(255, 0, 255);}
 .pozadina{
-	background-image: url("slike/240_F_173824524_4VeEjBTlo5Lqi4tZxV04nJQIOy2pMgCG.jpg");
+	background-image: url("../zadnji projektini/slike/marine-3052592_960_720.jpg")
 }
 .drugapozadina {
-	background-color: darkblue;
+	background-color: floralwhite;
 }
+
 a:link {
 	
 	color: black;
@@ -42,3 +45,4 @@ a:hover {
 img {
 	height: 200px;
 }
+	
